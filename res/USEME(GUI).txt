@@ -1,0 +1,19 @@
+To use our program please read the instructions that are printed at the top of
+the GUI when the program is first booted up. You will first have to load an image
+using the load image button down below where it will prompt you to load an image 
+from your files. You can also save an image using the save image beneath the load image
+button which will save the image you are currently working on, and you can choose what to
+name the file to save as.
+
+The next buttons are the "brighten" and "darken" buttons which when you click them, you will be
+prompted to type in an increment value for how much to brighten or darken by. For brighten,
+type a positive number to increment by. For darken, type a negative number denoted by -100
+for example to darken by.
+
+The rest of the commands are within the Modifications button at the bottom which you simply
+need to press the modification button and then the command that you want to take effect on
+the current image. These commands include the following:
+Horizontal-FLip, Vertical-Flip, Red Component Visualization, Green Component Visualization,
+Blue Component Visualization, Value Component Visualization, Intensity Component Visualization,
+Luma Component Visualization, Greyscale, Sepia, Blur, and Sharpen.
+

@@ -1,0 +1,31 @@
+To use the function of the program please use the following syntax on the right.
+The left hand side describes the command and to the right is the syntax/order of
+how to type the command into the command line console.
+
+• Loading a photo into the program:   load imageLocation imageName
+• Save an image:                      save fileSaveName imageName
+• Horizontally Flip an image:         horizontal-flip imageName modifiedImageName
+• Vertically Flip an image:           vertical-flip imageName modifiedImageName
+• Brighten or Darken an image:        brighten IntegerIncrementAmount(Positive for brighten and
+    negative for darken) imageName modifiedImageName
+• Visualize the Red Component:        red-component imageName modifiedImageName
+• Visualize the Green Component:      green-component imageName modifiedImageName
+• Visualize the Blue Component:       blue-component imageName modifiedImageName
+• Visualize the Value Component:      value-component imageName modifiedImageName
+• Visualize the Intensity Component:  intensity-component imageName modifiedImageName
+• Visualize the Luma Component:       luma-component imageName modifiedImageName
+• Greyscale an image:                 greyscale imageName modifiedImageName
+• Sepia Tone an Image:                sepia imageName modifiedImageName
+• Blur an Image:                      blur imageName modifiedImageName
+• Sharpen an Image:                   sharpen imageName modifiedImageName
+
+Examples:
+The below command will load the image and name it pixels.
+load Images/pixels.ppm pixels
+ ^	  ^		 ^
+command  imageLocation  imageName
+
+If we want to horizontally flip the image we just loaded, we would type the following.
+horizontal-flip pixels pixelsFlipped
+ ^		   ^              ^		
+command     Name of the image  The new name of the flipped image
